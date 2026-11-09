@@ -1,0 +1,43 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Packaging
+build/
+dist/
+*.egg-info/
+
+# Environments
+.venv/
+venv/
+env/
+.env
+
+# Model checkpoints and datasets
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+data/ImageNet/
+data/imagenet/
+data/ILSVRC/
+data/*.tar
+data/*.zip
+
+# Training outputs
+logs/
+runs/
+outputs/
+
+# Editors and OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Misc
+*.log
+*.tmp
